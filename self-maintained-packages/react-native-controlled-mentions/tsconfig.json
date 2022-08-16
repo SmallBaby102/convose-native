@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+
+    "module": "commonjs",
+
+    "lib": [
+      "es7"
+    ],
+
+    "declaration": true,
+
+    "outDir": "./dist",
+
+    "sourceMap": true,
+
+    "strict": true,
+
+    "esModuleInterop": true,
+
+    "allowSyntheticDefaultImports": true,
+
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+
+    "jsx": "react"
+  },
+
+  "include": [
+    "./src/**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

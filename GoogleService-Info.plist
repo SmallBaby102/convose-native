@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>796340311974-c7ojtdmebrv20k16kq4pn3tq291j0p25.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.796340311974-c7ojtdmebrv20k16kq4pn3tq291j0p25</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>796340311974-635rq0kq1p9lcq28m5g1au6qgv6nqhmu.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDtyO7rzu0fDXah3DwPa5e-I6Hm6xYkbc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>796340311974</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>convoseapp</string>
+	<key>PROJECT_ID</key>
+	<string>convose-12ea3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>convose-12ea3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:796340311974:ios:817825c7923e9ece2b6167</string>
+	<key>DATABASE_URL</key>
+	<string>https://convose-12ea3.firebaseio.com</string>
+</dict>
+</plist>

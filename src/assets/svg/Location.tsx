@@ -1,0 +1,24 @@
+import React from "react"
+import { Svg, Path } from "react-native-svg"
+import { SvgProps } from "./types"
+import { getRatio, getWidth } from "./utils"
+
+const defaultHeight = 36
+const defaultWidth = 30
+const ratio = getRatio(defaultHeight, defaultWidth)
+
+export const LocationSvg: React.FunctionComponent<SvgProps> = ({
+  color,
+  height,
+}) => {
+  const svgHeight = height || defaultHeight
+  const svgWidth = height ? getWidth(ratio, height) : defaultWidth
+  return (
+    <Svg width={svgWidth} height={svgHeight} viewBox="0 0 30 36" fill="none">
+      <Path
+        d="M14.5029 0C10.6587 0.00442346 6.97319 1.49589 4.2549 4.14723C1.53661 6.79857 0.00748028 10.3933 0.00294511 14.1429C-0.00165915 17.207 1.02451 20.188 2.92403 22.6286C2.92403 22.6286 3.31949 23.1364 3.38408 23.2097L14.5029 36L25.6271 23.2033C25.6851 23.1351 26.0818 22.6286 26.0818 22.6286L26.0831 22.6247C27.9817 20.1852 29.0074 17.2056 29.0029 14.1429C28.9984 10.3933 27.4692 6.79857 24.751 4.14723C22.0327 1.49589 18.3472 0.00442346 14.5029 0ZM14.5029 19.2857C13.4601 19.2857 12.4407 18.9841 11.5736 18.419C10.7065 17.8539 10.0306 17.0507 9.63157 16.1109C9.23249 15.1712 9.12807 14.1372 9.33152 13.1395C9.53497 12.1419 10.0371 11.2255 10.7746 10.5063C11.512 9.78707 12.4515 9.29726 13.4743 9.09882C14.4971 8.90038 15.5572 9.00223 16.5207 9.39148C17.4842 9.78073 18.3077 10.4399 18.887 11.2856C19.4664 12.1314 19.7757 13.1257 19.7757 14.1429C19.7739 15.5063 19.2178 16.8134 18.2294 17.7775C17.2409 18.7416 15.9008 19.284 14.5029 19.2857Z"
+        fill={color || "#FF7979"}
+      />
+    </Svg>
+  )
+}

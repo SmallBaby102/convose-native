@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "796340311974",
+    "firebase_url": "https://convose-12ea3.firebaseio.com",
+    "project_id": "convose-12ea3",
+    "storage_bucket": "convose-12ea3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796340311974:android:bdeda9ddd07050d92b6167",
+        "android_client_info": {
+          "package_name": "com.convose.convose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796340311974-635rq0kq1p9lcq28m5g1au6qgv6nqhmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.convose.convose",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "796340311974-f1q5hmins0h1tnh9hi7nnh6tt5b96ran.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.convose.convose",
+            "certificate_hash": "56cf5450bd9b9585b2b832fcd2d2c6eaec97e335"
+          }
+        },
+        {
+          "client_id": "796340311974-8974bio8u1mmebhmtfrci7men07a5nme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7y5Xbs1wdCJ2GVwxpbwIg4ChVkORA4dM"
+          
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796340311974-8974bio8u1mmebhmtfrci7men07a5nme.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "796340311974-c7ojtdmebrv20k16kq4pn3tq291j0p25.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "convoseapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

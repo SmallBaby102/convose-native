@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "796340311974",
+    "firebase_url": "https://convose-12ea3.firebaseio.com",
+    "project_id": "convose-12ea3",
+    "storage_bucket": "convose-12ea3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796340311974:android:bdeda9ddd07050d92b6167",
+        "android_client_info": {
+          "package_name": "com.convose.convose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796340311974-8974bio8u1mmebhmtfrci7men07a5nme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7y5Xbs1wdCJ2GVwxpbwIg4ChVkORA4dM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796340311974-nqsl86869bmhcr4jubmkld1vcgaoehj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "react-native",
+    "lib": ["dom", "es2015", "es2016", "es6"],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noImplicitReturns": true,
+    "outDir": "build/dist",
+    "paths": {
+      "assets/*": ["./src/assets/*"],
+      "convose-app": ["./src/convose-app"],
+      "convose-app/*": ["./src/convose-app/*"],
+      "convose-lib": ["./src/convose-lib"],
+      "convose-lib/*": ["./src/convose-lib/*"],
+      "convose-styles": ["./src/styles"]
+    },
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "typeRoots": ["node_modules/@types", "src/typings"]
+  },
+  "include": [
+    "./src/assets/**/*",
+    "./src/convose-app/**/*",
+    "./src/convose-lib/**/*",
+    "src/typings/*"
+  ],
+  "exclude": ["node_modules", "jest", "src/setupTests.ts"]
+}

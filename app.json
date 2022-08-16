@@ -1,0 +1,118 @@
+{
+  "expo": {
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "convose-77",
+            "project": "convose-native",
+            "authToken": "a8bf18befdae47e8bdd8abbbe3f0a957be2e1da676874124b9858d08536956d9",
+            "setCommits": true
+          }
+        }
+      ]
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "jsx",
+        "vue"
+      ],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
+    "privacy": "unlisted",
+    "name": "Convose",
+    "icon": "./app.png",
+    "version": "2.18.39",
+    "slug": "convoseapp",
+    "scheme": "convoseapp",
+    "owner": "murrelsamexpo",
+    "facebookScheme": "fb853466218454989",
+    "facebookAppId": "853466218454989",
+    "facebookDisplayName": "Convose",
+    "splash": {
+      "backgroundColor": "#FFFFFF",
+      "image": "./splash.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 15000
+    },
+    "ios": {
+      "jsEngine": "hermes",
+      "bundleIdentifier": "convoseapp",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      // "config": {
+      //   "gooogleSignIn": {
+      //     "reservedClientId": "com.googleusercontent.apps.796340311974-c7ojtdmebrv20k16kq4pn3tq291j0p25"
+      //   }
+      // },
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "splash": {
+        "backgroundColor": "#FFFFFF",
+        "image": "./splash.png"
+      },
+      "associatedDomains": [
+        "applinks:convose.com"
+      ]
+    },
+    "android": {
+      "jsEngine": "hermes",
+      "package": "com.convose.convose",
+      "versionCode": 50,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "certificateHash": "5E:8F:16:06:2E:A3:CD:2C:4A:0D:54:78:76:BA:A6:F3:8C:AB:F6:25"
+        }
+      },
+      "useNextNotificationsApi": true,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "com.anddoes.launcher.permission.UPDATE_COUNT",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.google.android.c2dm.permission.RECEIVE",
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        "com.htc.launcher.permission.UPDATE_SHORTCUT",
+        "com.majeur.launcher.permission.UPDATE_BADGE",
+        "com.sec.android.provider.badge.permission.READ",
+        "com.sec.android.provider.badge.permission.WRITE",
+        "com.sonyericsson.home.permission.BROADCAST_BADGE"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "www.convose.com",
+              "pathPrefix": "/home"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "notification": {
+      "icon": "./src/assets/notification-logo.png"
+    },
+    "description": ""
+  }
+}
